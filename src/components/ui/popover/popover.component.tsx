@@ -219,6 +219,6 @@ export class Popover extends React.Component<PopoverProps, State> {
 
 const styles = StyleSheet.create({
   popoverView: {
-    position: 'absolute',
+    position: 'fixed',
   },
 });
